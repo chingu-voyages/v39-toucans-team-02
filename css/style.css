@@ -1,0 +1,122 @@
+*{
+    font-family: "Permanent Marker", cursive;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+h1, h2, p{
+    font-family: "Permanent Marker", cursive;
+    color: rgb(49, 49, 49) !important;
+    z-index: 10;
+}
+
+
+/*-------  Navigation ----*/
+.navbar{
+    background: transparent !important;
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 3rem;
+}
+.navbar-nav{   
+    padding-left: 16rem !important;
+}
+.nav-link{
+    font-family: "Permanent Marker", cursive;
+    font-size: 32px;
+    color: rgb(10, 10, 10) !important;
+    padding-right: 2rem !important;
+    text-shadow: 1px 1px 2px #ad8106;  
+}
+a:hover, .active{
+    color: #ad8106 !important;
+    text-shadow: 2px 4px 5px #000;
+}
+
+
+/*-------  Home page ----*/
+.home{
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home-text{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+}
+.home-text h1{
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: 2px 2px 2px #ad8106;
+}
+.home-text h2{
+    margin-top: 1rem;
+    font-size: 56px;
+    text-align: center;
+    color:#ad8106 !important;
+    text-shadow: 2px 4px 5px #000;
+}
+.home-text p{
+    font-size: 36px;
+    text-align: center;
+    color:#ad8106 !important;
+    text-shadow: 2px 4px 5px #000;   
+}
+.home img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*-------  About page ----*/
+.about{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;   
+    background-color: rgba(100, 100,100, 0.1); 
+}
+.about img{
+    width: 100%;
+    object-fit: cover;
+}
+.center{
+    justify-content: center;
+    
+}
+.about-item{    
+    width: 100%;
+    height:600px;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    border: 1px solid #ad8106;
+           
+}
+.color-1{
+    color: #ad8106 !important;
+}
+.color-2{
+    background-color: rgba(100, 100,100, 0.3); 
+}
+.about-item h2{
+    font-size: 42px;
+    padding-bottom: 2rem;
+}
+.about-item h3{
+    padding-top: 1rem;
+}
+.about-item p{
+    font-size: 1.25rem;
+}
