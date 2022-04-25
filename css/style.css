@@ -1,3 +1,4 @@
+/*HEAD*/
 *{
     font-family: "Permanent Marker", cursive;
     margin: 0;
@@ -119,4 +120,18 @@ a:hover, .active{
 }
 .about-item p{
     font-size: 1.25rem;
+}
+/* ======= */
+.img-responsive {
+    margin: 10px;
+}
+
+.img-responsive:hover {
+    box-shadow: 4px 5px 5px 4px;
+    border-radius: 8px;
+}
+
+#menu-list {
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("../gallery-images/restaurant-facade.jpg") cover fixed no-repeat;
+/*>>>>>>> e48e11d37c22f475a0b5a8f94174afa0cee1e83c*/
 }
