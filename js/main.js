@@ -11,6 +11,7 @@ window.addEventListener('scroll', function(){
     text.style.top = (value * .8) + 'px';
     paper.style.left = (value * 1.2) + 'px';
     salad.style.left = (value * -.8) + 'px';
+    onion.style.left = (value * -.5) + 'px';
 
     
 })

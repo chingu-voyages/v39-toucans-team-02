@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <!-- Bootstrap CSS -->
@@ -40,12 +41,12 @@
       <div class="container-fluid">
         <div class="row">
           <img id="wood" src="image/wood-background1920.jpg" alt="">         
-          <img id="chicken" src="image/chicken1.png" alt="">
-          <img id="salad" src="image/salad.png" alt="">
-          <img id="paper" src="image/paper.png" alt="">
-          <img id="onion" src="image/onion.png" alt="">          
+          <img id="chicken" data-aos="zoom-in-right" src="image/chicken1.png" alt="">
+          <img id="salad" data-aos="zoom-in-left" src="image/salad.png" alt="">
+          <img id="paper" data-aos="zoom-out-up" src="image/paper.png" alt="">
+          <img id="onion" data-aos="zoom-in-up" src="image/onion.png" alt="">          
         </div>
-        <div id="home-text" class="home-text">
+        <div id="home-text" class="home-text" data-aos="zoom-out-up">
           <h2>Restourant</h2>
           <h1>Toucan 2</h1>          
           <p>OPENING HOURS</p>
@@ -62,7 +63,7 @@
       <div class="container-fluid">
         <div class="row center">
           <img src="image/slide1.jpg" alt="">
-          <div class="about-item col-4 color-2">
+          <div class="about-item col-4 color-2" data-aos="zoom-in-up">
             <h3 class="color-1">Our story</h3>
             <h2 class="color-1">About Toucan 2 Restourant</h2>
             <p class="color-1">Welcome. This is Toucan 2 Restourant. Elegant & sofisticated restaurant template. Toucan 2 offers different home page layouts with smart and unique design, showcasing beautifully designed elements every restaurant website should have. <br>
@@ -89,6 +90,14 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 500,
+        once: true
+      });
+    </script>
 
     
   </body>
