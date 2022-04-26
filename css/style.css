@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    
 }
 h1, h2, p{
     font-family: "Permanent Marker", cursive;
@@ -42,7 +43,9 @@ a:hover, .active{
     height: 100vh;
     width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
+
 .home-text{
     position: absolute;
     top: 18%;
