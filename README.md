@@ -1,5 +1,16 @@
 # Restourant Toucan II
 
+This is Toucan 2 Restourant. 
+Elegant & sofisticated restaurant template. 
+Toucan 2 offers different home page layouts with smart and unique design, showcasing beautifully designed elements every restaurant website should have.
+Smooth animations, fast loading and engaging user experience are just some of the features this template offers.
+
+
+
+
+
+
+
 Your project's `readme` is as important to success as your code. For 
 this reason you should put as much care into its creation and maintenance
 as you would any other component of the application.
