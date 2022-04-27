@@ -1,8 +1,8 @@
 /*HEAD*/
 *{
     font-family: "Permanent Marker", cursive;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     scroll-behavior: smooth;
     
 }
@@ -78,7 +78,35 @@ a:hover, .active{
     height: 100%;
     object-fit: cover;
 }
-
+@media screen and (max-width: 992px) { 
+    .home-text{
+        left: 30%;
+    }
+    .home-text h2{        
+        font-size: 2rem;
+    }  
+    .home-text h1{
+        font-size: 3rem;
+    } 
+    .home-text p{
+        font-size: 1.75rem;
+    }   
+}
+@media screen and (max-width: 768px) { 
+    .home-text{
+        left: 30%;
+        top: 10%;
+    }
+    .home-text h2{        
+        font-size: 1.75rem;
+    }  
+    .home-text h1{
+        font-size: 2.5rem;
+    } 
+    .home-text p{
+        font-size: 1.5rem;
+    }   
+}
 
 
 /*-------  About page ----*/
@@ -90,14 +118,14 @@ a:hover, .active{
     display: flex;
     justify-content: center;   
     background-color: rgba(100, 100,100, 0.1); 
+    padding-bottom: 2rem;
 }
 .about img{
     width: 100%;
     object-fit: cover;
 }
 .center{
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .about-item{    
     width: 100%;
@@ -126,6 +154,33 @@ a:hover, .active{
     letter-spacing: 2px;
     line-height: 1.5;
 }
+
+
+/* ====  Media query for About section*/
+
+@media screen and (max-width: 992px) { 
+    .about-item{        
+        height:430px;
+    }      
+}
+@media screen and (max-width: 768px) { 
+    .about-item{
+        top:.5rem;
+        height:310px;
+    }  
+    .about-item h3{
+        font-size: 1.2rem;
+    }
+    .about-item h2{
+        font-size: 1.5rem;
+    }
+    .about-item p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+}
+
 /* ======= */
 .img-responsive {
     margin: 10px;
@@ -139,4 +194,17 @@ a:hover, .active{
 #menu-list {
     background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("../gallery-images/restaurant-facade.jpg") cover fixed no-repeat;
 /*>>>>>>> e48e11d37c22f475a0b5a8f94174afa0cee1e83c*/
+}
+
+
+
+.footer {
+    padding-top: 3rem;
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-around;
+
 }
