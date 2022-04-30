@@ -44,6 +44,7 @@ a:hover, .active{
     width: 100%;
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .home-text{
@@ -197,14 +198,3 @@ a:hover, .active{
 }
 
 
-
-.footer {
-    padding-top: 3rem;
-    position: relative;
-    height: 30vh;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
-    display: flex;
-    justify-content: space-around;
-
-}
