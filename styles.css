@@ -1,0 +1,184 @@
+
+html, body{
+    overflow-x: hidden;
+}
+
+
+.container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#row1{
+    background-image: url("./images/pics/backgne.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    #row1{
+        height: 700px;
+    }
+    
+}
+
+.whitespace1{
+    padding-bottom: 10px;
+    padding-top: 120px;
+}
+.whitespace2{
+    padding-bottom: 120px;
+}
+
+.list-items{
+    color: #b48c80;
+}
+li span{
+    color: #000;
+}
+/* Fonts */
+.h1{
+    font-family: 'Montez', cursive;
+    font-size: 10vmin;
+    color: rgb(252, 218, 154);
+}
+.sub1{
+    font-family: 'Suranna', serif;
+    color: rgb(255, 255, 255);
+    font-size: 10vmin;
+}
+.h3{
+    font-family: 'Montez', cursive;
+    font-size: 36px;
+    color: #b48c80;
+}
+.sub3{
+    font-family: 'Suranna', serif;
+    font-size: 36px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.h2{
+    font-family: 'Montez', cursive;
+    color: #fcda9a;
+    font-size: 44px;
+}
+.sub2{
+    font-family: 'Suranna', serif;
+    color: #fff;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #777777;
+}
+.sub4{
+    font-family: 'Suranna', serif;
+    color: #161d27;
+    font-size: 21px;
+}
+/*Fonts end*/
+.side-link{
+    text-decoration: none;
+    border-bottom: 1px solid #b48c80;
+    /* margin-top: 5px; */
+}
+.side-link:hover{
+    color: #b48c80;
+}
+
+a .fa-angle-double-right{
+    color: #161d27;
+    font-size: small;
+
+
+}
+#row-services{
+    background-image: url("./images/pics/bkg-img17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmin;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    .side-images{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    .side-text{
+        padding-top: 75px;
+    }
+}
+
+
+#row-mia{
+    background-image: url("./images/pics/bkg-img18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vmin;
+}
+/* Curved border/image. Not sure about this*/
+#row-design{
+    background-image: url("./images/border-decor.png");
+    top: 100px;
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 2000px) {
+.carousel-inner{
+    display: flex;
+}
+.carousel-item {
+    padding: 20px;
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+} */
+
+/* #carousel-images{
+    display: flex;
+} */
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel .carousel-indicators li{
+    background: #b48c80;
+    width: 1.2rem;
+    height: 0.05rem;
+    border-radius: 100%;
+}
+.carousel-indicators .active{
+    background: red;
+}
+
+#send-btn:hover{
+    background: #b48c80;
+    border: none;
+
+}
+
+#btn-back-to-top {
+    background-color: #1d2026;
+    opacity: 0.4;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    display: none;
+}
+
+.fa{
+    color: #b48c80;
+}
