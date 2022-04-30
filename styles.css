@@ -1,7 +1,11 @@
 
+html, body{
+    overflow-x: hidden;
+}
 
 
 .container-fluid{
+    margin-left: 0;
     margin-right: 0;
 }
 
@@ -28,16 +32,22 @@
     padding-bottom: 120px;
 }
 
+.list-items{
+    color: #b48c80;
+}
+li span{
+    color: #000;
+}
 /* Fonts */
 .h1{
     font-family: 'Montez', cursive;
-    font-size: 60px;
+    font-size: 10vmin;
     color: rgb(252, 218, 154);
 }
 .sub1{
     font-family: 'Suranna', serif;
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 10vmin;
 }
 .h3{
     font-family: 'Montez', cursive;
@@ -67,28 +77,56 @@ p{
     font-size: 15px;
     color: #777777;
 }
+.sub4{
+    font-family: 'Suranna', serif;
+    color: #161d27;
+    font-size: 21px;
+}
 /*Fonts end*/
+.side-link{
+    text-decoration: none;
+    border-bottom: 1px solid #b48c80;
+    /* margin-top: 5px; */
+}
+.side-link:hover{
+    color: #b48c80;
+}
 
+a .fa-angle-double-right{
+    color: #161d27;
+    font-size: small;
+
+
+}
 #row-services{
     background-image: url("./images/pics/bkg-img17.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 100vmin;
 }
-.side-images{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    .side-images{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    .side-text{
+        padding-top: 75px;
+    }
 }
-.side-text{
-    padding-top: 75px;
-}
+
 
 #row-mia{
     background-image: url("./images/pics/bkg-img18.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 100vmin;
+}
+/* Curved border/image. Not sure about this*/
+#row-design{
+    background-image: url("./images/border-decor.png");
+    top: 100px;
 }
 
 /* @media only screen and (min-width: 768px) and (max-width: 2000px) {
@@ -103,8 +141,44 @@ p{
   }
 } */
 
-#carousel-images{
+/* #carousel-images{
     display: flex;
+} */
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel .carousel-indicators li{
+    background: #b48c80;
+    width: 1.2rem;
+    height: 0.05rem;
+    border-radius: 100%;
+}
+.carousel-indicators .active{
+    background: red;
 }
 
- 
+#send-btn:hover{
+    background: #b48c80;
+    border: none;
+
+}
+
+#btn-back-to-top {
+    background-color: #1d2026;
+    opacity: 0.4;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    display: none;
+}
+
+.fa{
+    color: #b48c80;
+}
