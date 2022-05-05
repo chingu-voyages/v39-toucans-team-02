@@ -127,14 +127,14 @@ a:hover, .active{
     padding-bottom: 2rem;
 }
 .about img{
+    position: relative;
     width: 100%;
     object-fit: cover;
 }
 .center{
     justify-content: center;    
 }
-.about-item{    
-    width: 100%;
+.about-item{        
     height:600px;
     position: absolute;
     top: 10%;
@@ -196,6 +196,35 @@ a:hover, .active{
 .img-responsive:hover {
     box-shadow: 4px 5px 5px 4px;
     border-radius: 8px;
+}
+#menu-hero{
+    background-image: url(../images/menu1920.jpg);
+    position: relative;
+    height: 120vh;
+    object-fit: cover;
+
+}
+.menu-list-text{
+    position: absolute;
+    color: #ad8106 !important;
+    top: 30%;
+    left: 28%;
+    font-size: 3rem;    
+    z-index: 10;
+}
+.salads{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.salads p, .sides p{
+    
+    font-size: 1rem;
+}
+.sides{
+    position: absolute;
+    top: 55%;
+    left: 30%;
 }
 
 #menu-list {
