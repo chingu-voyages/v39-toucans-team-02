@@ -15,7 +15,7 @@ h1, h2, p{
 
 /*-------  Navigation ----*/
 .navbar{
-    background: transparent !important;
+    background: rgba(255, 255,255, 0.2) !important;
 }
 .navbar-brand img{
     height: 60px;
