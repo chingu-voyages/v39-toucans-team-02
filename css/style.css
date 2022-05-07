@@ -3,7 +3,7 @@
     font-family: "Permanent Marker", cursive;
     margin: 0 !important;
     padding: 0 !important;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     
 }
 h1, h2, p{
@@ -11,11 +11,9 @@ h1, h2, p{
     color: rgb(49, 49, 49) !important;
     z-index: 10;
 }
-
-
 /*-------  Navigation ----*/
 .navbar{
-    background: transparent !important;
+    background: rgba(255, 255,255, 0.2) !important;
 }
 .navbar-brand img{
     height: 60px;
@@ -44,6 +42,7 @@ a:hover, .active{
     width: 100%;
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .home-text{
@@ -66,6 +65,7 @@ a:hover, .active{
 }
 .home-text p{
     font-size: 36px;
+    font-family: "Permanent Marker", cursive;
     text-align: center;
     color:#ad8106 !important;
     text-shadow: 2px 4px 5px #000;   
@@ -121,14 +121,14 @@ a:hover, .active{
     padding-bottom: 2rem;
 }
 .about img{
+    position: relative;
     width: 100%;
     object-fit: cover;
 }
 .center{
     justify-content: center;    
 }
-.about-item{    
-    width: 100%;
+.about-item{        
     height:600px;
     position: absolute;
     top: 10%;
@@ -150,6 +150,7 @@ a:hover, .active{
     padding-top: 1rem;
 }
 .about-item p{
+    font-family: "Permanent Marker", cursive;
     font-size: 1.25rem;
     letter-spacing: 2px;
     line-height: 1.5;
@@ -181,30 +182,16 @@ a:hover, .active{
     }
 }
 
-/* ======= */
-.img-responsive {
-    margin: 10px;
+#btn-back-to-top {
+    background-color: #b4b7bb;
+    opacity: 0.4;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    display: none;
 }
 
-.img-responsive:hover {
-    box-shadow: 4px 5px 5px 4px;
-    border-radius: 8px;
-}
-
-#menu-list {
-    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("../gallery-images/restaurant-facade.jpg") cover fixed no-repeat;
-/*>>>>>>> e48e11d37c22f475a0b5a8f94174afa0cee1e83c*/
-}
-
-
-
-.footer {
-    padding-top: 3rem;
-    position: relative;
-    height: 30vh;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
-    display: flex;
-    justify-content: space-around;
-
-}
