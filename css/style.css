@@ -197,10 +197,28 @@ a:hover, .active{
 
 /* Menu */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5em;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
   }
+  .title h4{
+    text-transform:capitalize;
+    font-size:36px;
+    position:relative;
+    display:inline-block;
+    padding-bottom:10px;
+  }
+  .title h4 span{
+    display:block;
+    font-size:18px;
+    font-style:italic;
+    margin-bottom:10px;
+  }
+
   
   .menu {
     font-family: "Inter", sans-serif;
