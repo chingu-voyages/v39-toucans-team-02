@@ -246,6 +246,7 @@ a:hover, .active{
   .menu {
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    padding-bottom: 50px !important;
   }
   
   .menu-group-heading {
