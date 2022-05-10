@@ -227,10 +227,11 @@ a:hover, .active{
 .title{
     text-align:center;
     margin-bottom:50px;
+    padding: 50px !important;
   }
   .title h4{
     text-transform:capitalize;
-    font-size:36px;
+    font-size:50px;
     position:relative;
     display:inline-block;
     padding-bottom:10px;
@@ -314,4 +315,8 @@ a:hover, .active{
       height: 125px;
     }
   }
-  
+
+/*-------  Gallery ----*/
+ .col-md-4 {
+     padding: 10px !important;
+ }
